@@ -1,0 +1,76 @@
+body {
+  background: rgb(12, 12, 23);
+  background: linear-gradient(
+    90deg,
+    rgba(12, 12, 23, 1) 0%,
+    rgba(59, 59, 59, 1) 87%
+  );
+}
+
+.navbar {
+  width: 90vw;
+  height: 15vh;
+  position: fixed;
+  background-color: rgb(191, 146, 94);
+  border-radius: 50px;
+  margin-left: 5vw;
+  margin-top: 1vh;
+}
+
+body h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1vh;
+}
+
+.searchimg {
+  margin-top: -10vh;
+}
+
+.searchimg img {
+  width: 3vw;
+  margin-top: 7.5vh;
+  margin-left: 1vw;
+}
+
+.api-place {
+  width: 60vw;
+  height: 40vh;
+  background-color: rgb(243, 243, 243);
+  margin-left: 20vw;
+  margin-top: -60vh;
+  background-repeat: no-repeat;
+  background-image: url(../Assets/images/sky-background-video-conferencing_23-2148639325.avif);
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between; /* Distribute space evenly between elements */
+  align-items: center;
+}
+
+.api-place h1 {
+  font-size: 2.8em;
+  margin-left: 19vw;
+  margin-top: -2.5vh;
+}
+
+.api-place h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.6em;
+}
+
+.navbar input {
+  margin-left: 24.5vw;
+  position: absolute;
+  width: 40vw;
+  height: 3vh;
+  margin-top: -1.2vh;
+}
+
+#iconimg {
+  width: 10vw;
+  position: relative;
+}
